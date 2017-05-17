@@ -1,5 +1,4 @@
 .git
 config.js
 .DS_Store
-public/node_modules
-public/.git
+node_modules

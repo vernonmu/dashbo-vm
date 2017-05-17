@@ -18,7 +18,7 @@
         <link href="css/app.min.2.css" rel="stylesheet">
 
     </head>
-    <body data-ma-header="teal">
+    <body data-ma-header="brown">
         <header id="header" class="media">
             <div class="pull-left h-logo">
                 <a href="index.html" class="hidden-xs">
@@ -108,7 +108,7 @@
                 </li>
                 <li class="dropdown hm-profile">
                     <a data-toggle="dropdown" href="">
-                        <img src="img/profile-pics/1.jpg" alt="">
+                        <img src="img/avat.jpg" alt="profile image" height="45" width="45">
                     </a>
 
                     <ul class="dropdown-menu pull-right dm-icon">
@@ -443,9 +443,30 @@
                 </ul>
             </aside>
 
+
             <section id="content">
                 <div class="container">
-                    <div class="card">
+                  <div class="card" id="calendar-widget">
+                      <div class="card-header cw-header palette-Teal-400 bg">
+                          <div class="cwh-year"></div>
+                          <div class="cwh-day"></div>
+
+                          <button class="btn palette-Light-Green bg btn-float waves-effect waves-circle waves-float"><i class="zmdi zmdi-plus"></i></button>
+                      </div>
+
+                      <div class="card-body card-padding-sm">
+                          <div id="cw-body"></div>
+                      </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <h2>Twitter Feed</h2>
+                    </div>
+                    <div class="card-body">
+                      tweets here
+                    </div>
+                  </div>
+                    <!-- <div class="card">
                         <div class="card-header">
                             <h2>Sales Statistics <small>Vestibulum purus quam scelerisque, mollis nonummy metus</small></h2>
 
@@ -485,7 +506,7 @@
                                 <div id="curved-line-chart" class="flot-chart "></div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div id="c-grid" class="clearfix" data-columns>
                         <div class="card c-dark palette-Light-Blue bg">
@@ -631,7 +652,7 @@
 
                         <div class="card popular-post">
                             <div class="card-header ch-img" style="background-image: url(img/headers/4.png); height: 150px;">
-                                <h2>Recent Posts <small>Venenatis Sollicitudin Ipsum</small></h2>
+                                <h2>Twitter <small>Feeding trolls is bad</small></h2>
 
                                 <button class="btn palette-Light-Green bg btn-float waves-effect waves-circle waves-float"><i class="zmdi zmdi-plus"></i></button>
                             </div>
@@ -1021,18 +1042,7 @@
                             </div>
                         </div>
 
-                        <div class="card" id="calendar-widget">
-                            <div class="card-header cw-header palette-Teal-400 bg">
-                                <div class="cwh-year"></div>
-                                <div class="cwh-day"></div>
 
-                                <button class="btn palette-Light-Green bg btn-float waves-effect waves-circle waves-float"><i class="zmdi zmdi-plus"></i></button>
-                            </div>
-
-                            <div class="card-body card-padding-sm">
-                                <div id="cw-body"></div>
-                            </div>
-                        </div>
 
                         <div class="card">
                             <div class="card-header ch-img" style="background-image: url(img/demo/note.png); height: 250px;"></div>
@@ -1068,7 +1078,7 @@
         </section>
 
         <!-- Page Loader -->
-        <div class="page-loader palette-Teal bg">
+        <div class="page-loader palette-Green bg">
             <div class="preloader pl-xl pls-white">
                 <svg class="pl-circular" viewBox="25 25 50 50">
                     <circle class="plc-path" cx="50" cy="50" r="20"/>
